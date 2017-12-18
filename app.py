@@ -4,6 +4,10 @@ from flask import Flask
 
 app = Flask(__name__)
 
+@app.route('/yehoachin2')
+def yehoachin()
+    return 'yehoachin2'
+
 
 @app.route('/yehoyachin')
 def yehoyachin():
