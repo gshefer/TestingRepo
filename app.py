@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/yehoachin2')
 def yehoachin()
-    return 'yehoachin2'
+    return 'yehoachin3'
 
 
 @app.route('/yehoyachin')
